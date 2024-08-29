@@ -8,7 +8,7 @@ interface AvatarPorps{
 
 const Avatar: React.FC<AvatarPorps> = ({src}) => {
     return(
-        <img className="rounded-full" height={30} width={30} alt="Avatar" src={src || "/image/images5.jpeg"}></img>
+        <Image className="rounded-full" height={30} width={30} alt="Avatar" src={src || "/image/images5.jpeg"}></Image>
     )
 
 }
